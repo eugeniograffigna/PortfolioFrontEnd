@@ -1,11 +1,18 @@
-article {
-    border-color: black;
-    border: 1mm;
+h1 {
+    color: blueviolet;
+    background-color:lightgreen;
+    text-shadow: 2px 2px red;
 }
-section {
-    border-color: black;
-    border: 3mm;
-}
+
 h2 {
-    color: #4eb51a;
+    color: #1a2cb5;
+}
+
+section {
+background-color: rgba(37, 164, 164, 0.861);
+
+}
+
+.p {
+    font size: 100; color="#0000ff"
 }
