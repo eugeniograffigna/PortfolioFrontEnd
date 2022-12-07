@@ -1,0 +1,11 @@
+article {
+    border-color: black;
+    border: 1mm;
+}
+section {
+    border-color: black;
+    border: 3mm;
+}
+h2 {
+    color: #4eb51a;
+}
