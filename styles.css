@@ -2,6 +2,10 @@ h1 {
     color: blueviolet;
     background-color:lightgreen;
     text-shadow: 2px 2px red;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(128, 43, 0);
+    font-family:'Roboto', Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h2 {
@@ -9,10 +13,27 @@ h2 {
 }
 
 section {
-background-color: rgba(37, 164, 164, 0.861);
-
+    background-color: rgba(37, 164, 164, 0.861);
+    font-size:large ;
+    text-align:justify;
 }
 
-.p {
-    font size: 100; color="#0000ff"
+footer {
+    color: crimson;
+    font-size:  14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logos-estudios {
+    width: 30px;
+    border-width: 2px;
+    border-color: blue;
+    border-style:double;
+    border-radius: 50%;
+}
+.imagenes-chicas {
+    border-width: 2px;
+    border-color: blue;
+    border-style:double;
+    border-radius: 50%;
+
 }

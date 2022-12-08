@@ -18,15 +18,24 @@
   </head>
 
   <body>
-
-      <header>
-        <!-- Declaramos el nombre del proyecto -->
-        <h1>Mi primer proyecto</h1>
-        <img src="imagenes/banner.jpeg" alt="banner" height="200" width="1280">
-      </header>
+    <header>
+      <!-- Declaramos el nombre del proyecto -->
+      <h1>Mi primer proyecto</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col 1">
+            <img class= "imagenes-chicas" src="imagenes/Pato-Donald-1.gif" alt="banner" width="100">
+            <p>Eugenio Graffigna</p>
+          </div>
+          <div class="col 11">
+            <img src="imagenes/banner.jpeg" alt="banner" height="200" width="300">
+          </div>
+        </div>
+      </div>
+    </header>  
       <hr>
       <section>
-        <h2>Acerca de</h2>
+        <h2 style="text-align: center;">Acerca de</h2>
       </section>
       <hr>
       <section>
@@ -44,20 +53,21 @@
         <!-- En esta seccion informamos cual es la formacion academica del autor -->
         <h2>Educacion</h2>
           <article>
-          <img src="imagenes/Esctecnica.png" alt="logo Escuela Tecnica" width="50">
           <h3>Escuela Tecnica</h3>
+          <img src="imagenes/Esctecnica.png" class="logos-estudios" alt="logo Escuela Tecnica">
+          
           <P>Escuela Industrial de San Pablo</P>
           </article>
 
           <article>
             <h3>Universidad</h3>
-            <img src="imagenes/logoUBA.jpeg" alt="logo de la Universidad UBA" width="50">
+            <img src="imagenes/logoUBA.jpeg" class="logos-estudios" alt="logo de la Universidad UBA" >
             <p>Universidad de Buenos Aires</p>
           </article>
 
           <article>
             <h3>Post Grado</h3>
-            <img src="imagenes/Houston.png" alt="logo Universidad de Houston" width="50">
+            <img src="imagenes/Houston.png" class="logos-estudios" alt="logo Universidad de Houston" >
             <p>Universidad de Houston USA</p>
            </article>
       </section>
@@ -76,9 +86,19 @@
       <hr>
       <footer>
         <!-- Datos relacionados de como contactarse con el autor -->
-        <p class="p">Copyright 2022</p>
-        <p class="p">Contacto</p>
-        <p class="p">Redes sociales</p>
+        <div class="container">
+          <div class="row">
+            <div class="col 4">
+              <p>Copyright 2022, by Eugenio Graffigna</p>
+            </div>
+            <div class="col 4">
+              <p>contactarse</p>
+            </div>
+            <div class="col" 4>
+              <p>Redes sociales</p>
+            </div>
+          </div>
+        </div>
       </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
