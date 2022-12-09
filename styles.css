@@ -1,6 +1,5 @@
 h1 {
     color: blueviolet;
-    background-color:lightgreen;
     text-shadow: 2px 2px red;
     text-align: center;
     text-decoration-line: underline;
@@ -8,21 +7,11 @@ h1 {
     font-family:'Roboto', Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h2 {
-    color: #1a2cb5;
-}
-
 section {
-    background-color: rgba(37, 164, 164, 0.861);
     font-size:large ;
     text-align:justify;
 }
 
-footer {
-    color: crimson;
-    font-size:  20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 .logos-estudios {
     width: 30px;
     border-width: 2px;
@@ -39,11 +28,15 @@ footer {
 }
 .row {
     background-color: moccasin;
-    border: 2px solid blueviolet;
+    border: 2px solid black;
+    padding: 1px;
     margin: 1px
 
 }
 
 .columna {
-     ;
+   color: white;
+   font-size: 15px;
+   background-color: burlywood;
+   border: 1px solid black;
 }
