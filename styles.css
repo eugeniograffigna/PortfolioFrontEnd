@@ -7,6 +7,12 @@ h1 {
     font-family:'Roboto', Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+h2 {
+    color: darkgreen;
+    text-align: center;
+
+}
+
 h3 { 
     color: royalblue;
     text-align: center;
