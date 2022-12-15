@@ -22,6 +22,7 @@ h3 {
 section {
     font-size:large ;
     text-align:justify;
+    flex: content;
 }
 
 .logos-estudios {
@@ -32,23 +33,23 @@ section {
     border-radius: 50%;
 }
 .imagenes-chicas {
-    border-width: 2px;
-    border-color: blue;
+    border-width: 1px;
+    border-color: rgb(138, 138, 155);
     border-style:double;
     border-radius: 50%;
 
 }
-.row {
-    background-color: moccasin;
-    border: 2px solid black;
+/* .row {
+    background-color: rgba(252, 248, 248, 0.98);
+    border: 1px solid black;
     padding: 1px;
     margin: 1px
 
-}
+} */
 
 .columna {
-   color: white;
+   color: blue;
    font-size: 15px;
-   background-color: burlywood;
+   background-color: rgb(241, 236, 230);
    border: 1px solid black;
 }
